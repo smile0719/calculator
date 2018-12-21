@@ -13,7 +13,7 @@ class ButtonPanel extends React.Component {
     return (
       <div className="component-button-panel">
         <div>
-          <Button name="AC" clickHandler={this.handleClick} />
+          <Button name="AC" clickHandler={this.handleClick}  />
           <Button name="+/-" clickHandler={this.handleClick} />
           <Button name="%" clickHandler={this.handleClick} />
           <Button name="÷" clickHandler={this.handleClick} orange />
